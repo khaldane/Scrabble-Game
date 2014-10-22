@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93FFF348-81D6-4BFB-88A4-16E93EE2FF91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilesLibrary", "TilesLibrary\TilesLibrary.csproj", "{5E2AAFAC-E59B-46E1-BC5A-415F2F039020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilesClient", "TilesClient\TilesClient.csproj", "{B5CBADF7-0024-4F35-ABDC-C9BC4E888C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TilesService", "TilesService\TilesService.csproj", "{0FE471FA-0046-4ABB-BD53-95968D8FB765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{1EDB3A01-0397-4613-8841-1C69FD1AE426}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Scrabble UML.PNG = ..\..\..\..\Desktop\Scrabble UML.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E2AAFAC-E59B-46E1-BC5A-415F2F039020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2AAFAC-E59B-46E1-BC5A-415F2F039020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2AAFAC-E59B-46E1-BC5A-415F2F039020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2AAFAC-E59B-46E1-BC5A-415F2F039020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CBADF7-0024-4F35-ABDC-C9BC4E888C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CBADF7-0024-4F35-ABDC-C9BC4E888C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CBADF7-0024-4F35-ABDC-C9BC4E888C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CBADF7-0024-4F35-ABDC-C9BC4E888C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE471FA-0046-4ABB-BD53-95968D8FB765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE471FA-0046-4ABB-BD53-95968D8FB765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE471FA-0046-4ABB-BD53-95968D8FB765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE471FA-0046-4ABB-BD53-95968D8FB765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EDB3A01-0397-4613-8841-1C69FD1AE426} = {93FFF348-81D6-4BFB-88A4-16E93EE2FF91}
+	EndGlobalSection
+EndGlobal

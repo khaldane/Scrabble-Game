@@ -1,0 +1,16 @@
+﻿<Window x:Class="TilesClient.EndGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Scrabble - Game Over!" Height="700" Width="870"
+        Closing="Window_Closing">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/EndScreen.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <ListBox Name="lboxEndLeaderboard" HorizontalAlignment="Left" Height="315" VerticalAlignment="Top" Width="575" Margin="150,209,0,0"/>
+        <Label Content="Leaderboard!" FontSize="20" FontWeight="Bold"  HorizontalAlignment="Left" Margin="371,167,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnExitGame" Content="Game Over!" HorizontalAlignment="Left" Margin="225,563,0,0" VerticalAlignment="Top" Width="433" Height="77" Click="btnExitGame_Click"/>
+        <Label Name="endGameReason" FontSize="15" FontWeight="Bold" Content="" HorizontalAlignment="Left" Margin="357,137,0,0" VerticalAlignment="Top" Width="247"/>
+
+    </Grid>
+</Window>

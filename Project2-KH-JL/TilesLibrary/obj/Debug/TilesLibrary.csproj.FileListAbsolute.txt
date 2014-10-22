@@ -1,0 +1,5 @@
+D:\Scrabble\Project2-KH-JL\TilesLibrary\bin\Debug\TilesLibrary.dll
+D:\Scrabble\Project2-KH-JL\TilesLibrary\bin\Debug\TilesLibrary.pdb
+D:\Scrabble\Project2-KH-JL\TilesLibrary\obj\Debug\TilesLibrary.csprojResolveAssemblyReference.cache
+D:\Scrabble\Project2-KH-JL\TilesLibrary\obj\Debug\TilesLibrary.dll
+D:\Scrabble\Project2-KH-JL\TilesLibrary\obj\Debug\TilesLibrary.pdb

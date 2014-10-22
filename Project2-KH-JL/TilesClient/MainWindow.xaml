@@ -1,0 +1,57 @@
+﻿<Window x:Class="TilesClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Scrabble!" Height="700" Width="870"
+        Closing="Window_Closing">
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="images/bbg.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Grid Name="ScrabbleGrid" ShowGridLines="True"  HorizontalAlignment="Left" Height="560" VerticalAlignment="Top" Width="605" Drop="ScrabbleGrid_Drop" AllowDrop="True" DragEnter="ScrabbleGrid_DragEnter" MouseUp="ScrabbleGrid_MouseUp" >
+            <Grid.Background>
+                <ImageBrush ImageSource="images/scrabble.jpg" AlignmentY="Top" AlignmentX="Center"/>
+            </Grid.Background>
+        </Grid>
+
+        <Grid Name="PlayerOne" HorizontalAlignment="Left" Height="110" Margin="0,560,0,0" VerticalAlignment="Top" Width="862">
+            <Label Content="Score:" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left" Margin="495,5,0,0" VerticalAlignment="Top" Height="33"/>
+            <Label Content="Tiles:" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top"/>
+            <Label Name="lblPlayerScore" Content="" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left" Margin="547,5,0,0" VerticalAlignment="Top" Height="39"/>
+            <Label Content="Player Turn:" FontSize="13" FontWeight="Bold"  HorizontalAlignment="Left" Margin="612,5,0,0" VerticalAlignment="Top"/>
+
+            <Button Name="btnEndTurn" Content="End Turn!" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left" Margin="612,65,0,0" VerticalAlignment="Top" Width="231" Height="30" Click="btnEndTurn_Click" />
+            <Label Name="lblPlayerHand" HorizontalAlignment="Left" Margin="56,54,0,0" VerticalAlignment="Top" Width="539" Height="46">
+            </Label>
+            <Button Name="btnOne" Height="36" Width="36" Margin="63,59,761,15" MouseLeftButtonDown="btnOne_PreviewMouseLeftButtonDown" MouseMove="btnOne_MouseMove"/>
+            <Button Name="btnTwo" Height="36" Width="36" Margin="117,59,709,15" MouseLeftButtonDown="btnTwo_PreviewMouseLeftButtonDown" MouseMove="btnTwo_MouseMove"/>
+            <Button Name="btnThree" Height="36" Width="36" Margin="169,59,657,15" MouseLeftButtonDown="btnThree_PreviewMouseLeftButtonDown" MouseMove="btnThree_MouseMove" />
+            <Button Name="btnFour" Width="36" Height="36" Margin="224,59,602,15" MouseLeftButtonDown="btnFour_PreviewMouseLeftButtonDown" MouseMove="btnFour_MouseMove" />
+            <Button Name="btnFive" Width="36" Height="36" Margin="277,59,549,15" MouseLeftButtonDown="btnFive_PreviewMouseLeftButtonDown" MouseMove="btnFive_MouseMove" />
+            <Button Name="btnSix" Width="36" Height="36" Margin="332,59,494,15" MouseLeftButtonDown="btnSix_PreviewMouseLeftButtonDown" MouseMove="btnSix_MouseMove" />
+            <Button Name="btnSeven" Width="36" Height="36" Margin="384,59,442,15" MouseLeftButtonDown="btnSeven_PreviewMouseLeftButtonDown" MouseMove="btnSeven_MouseMove" />
+
+            <Label Name="PlayerNumber" Content="" FontStyle="Italic" FontSize="15" FontWeight="Bold"  HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="74"/>
+            <Label Name="lblPlayerTurn" Content="Player 1" HorizontalAlignment="Left" Margin="696,6,0,0" VerticalAlignment="Top" Width="87"/>
+            <Label Content="Last Word:" FontWeight="Bold" HorizontalAlignment="Left" Margin="612,32,0,0" VerticalAlignment="Top" Width="71"/>
+            <Label Name="lblLastWord" Content="" HorizontalAlignment="Left" Margin="683,32,0,0" VerticalAlignment="Top" Width="92"/>
+            <Label Content="Score:" FontWeight="Bold" HorizontalAlignment="Left" Margin="775,32,0,0" VerticalAlignment="Top"/>
+            <Label Name="lblLastWordScore" Content="0" HorizontalAlignment="Left" Margin="822,32,0,0" VerticalAlignment="Top" Height="26" Width="30"/>
+        </Grid>
+        <Grid Name="ScrabbleBag" HorizontalAlignment="Left" Height="214" Margin="623,335,0,0" VerticalAlignment="Top" Width="220">
+            <Grid.Background>
+                <ImageBrush ImageSource="images/ScrabbleBag.png" AlignmentY="Top" AlignmentX="Center"/>
+            </Grid.Background>
+            <Label Content="# of Tiles" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="64,110,0,0" VerticalAlignment="Top"/>
+            <Label Name="lblBagCount" Content="100" FontSize="15" FontWeight="Bold"  HorizontalAlignment="Left" Margin="84,140,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Rectangle Height="65" HorizontalAlignment="Left" Margin="623,130,0,0" Name="Rectangle1" Stroke="Gray" VerticalAlignment="Top" Width="214" RadiusX="20" RadiusY="20" Fill="LightSkyBlue" />
+        <ListBox Name="ScoreListBox" HorizontalAlignment="Left" Height="167"  Margin="623,163,0,0" VerticalAlignment="Top" Width="214" />
+        <Label Content="Leaderboard!" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="675,130,0,0" VerticalAlignment="Top" Width="127" Height="45"/>
+        <Grid HorizontalAlignment="Left" Height="120" Margin="605,5,0,0" VerticalAlignment="Top" Width="244">
+            <Grid.Background>
+                <ImageBrush ImageSource="images/ScrabbleLogo.png" AlignmentY="Top" AlignmentX="Center"/>
+            </Grid.Background>
+        </Grid>
+    </Grid>
+</Window>

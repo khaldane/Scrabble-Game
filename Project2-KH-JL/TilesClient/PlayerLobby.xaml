@@ -1,0 +1,16 @@
+﻿<Window x:Class="TilesClient.PlayerLobby"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PlayerLobby" Height="700" Width="870"
+        Closing="Window_Closing">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/bg2.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Button Name="StartGame" Content="Start Game" HorizontalAlignment="Left" Margin="201,498,0,0" VerticalAlignment="Top" Width="438" Height="88" Click="StartGame_Click"/>
+        <ListBox Name="LbLobby" HorizontalAlignment="Left" Height="245" Margin="201,230,0,0" VerticalAlignment="Top" Width="438"/>
+        <Label Name="WelcomePlayer" Content="" FontWeight="Bold" FontSize="25" FontStyle="Italic" HorizontalAlignment="Left" Margin="589,10,-112,0" VerticalAlignment="Top" Height="63" Width="385"/>
+        <Label Content="Player Lobby" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left" Margin="371,202,0,0" VerticalAlignment="Top" Height="28" Width="106"/>
+        <Label Name="ReadyQue" Content="" HorizontalAlignment="Left" Margin="289,610,0,0" VerticalAlignment="Top" Width="266"/>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Users\Jared\Desktop\Classes\semester5\Scrabble-KatherineHaldane-JaredLerner\Project2-KH-JL\TilesService\bin\Debug\TilesService.exe.config
+D:\Scrabble\Project2-KH-JL\TilesService\bin\Debug\TilesService.exe.config
+D:\Scrabble\Project2-KH-JL\TilesService\bin\Debug\TilesService.exe
+D:\Scrabble\Project2-KH-JL\TilesService\bin\Debug\TilesService.pdb
+D:\Scrabble\Project2-KH-JL\TilesService\bin\Debug\TilesLibrary.dll
+D:\Scrabble\Project2-KH-JL\TilesService\bin\Debug\TilesLibrary.pdb
+D:\Scrabble\Project2-KH-JL\TilesService\obj\Debug\TilesService.csprojResolveAssemblyReference.cache
+D:\Scrabble\Project2-KH-JL\TilesService\obj\Debug\TilesService.exe
+D:\Scrabble\Project2-KH-JL\TilesService\obj\Debug\TilesService.pdb
